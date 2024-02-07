@@ -1,0 +1,9 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1rem 0;
+  background-color: rgb(149, 149, 224);
+}

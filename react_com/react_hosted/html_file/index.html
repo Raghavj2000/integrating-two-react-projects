@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Html project</title>
+    <link href="../build/static/css/main.0049bd24.css" rel="stylesheet" />
+  </head>
+  <body>
+    <script src="../build/static/js/main.915ff04f.js"></script>
+
+    <div id="root_react"></div>
+    <button onclick="window.renderReact('root_react')">Click me</button>
+    <button onclick="addCount()">Add</button>
+    <button onclick="subtractCount()">Minus</button>
+  </body>
+  <script>
+    function addCount() {
+      window.customFunction.addCount(1);
+    }
+    function subtractCount() {
+      window.customFunction.subtractCount(1);
+    }
+  </script>
+</html>
